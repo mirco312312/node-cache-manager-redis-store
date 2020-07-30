@@ -15,9 +15,7 @@
     "test-cov": "jest --forceExit --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "build": "rollup -c"
   },
-  "dependencies": {
-    "redis": "^3.0.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
