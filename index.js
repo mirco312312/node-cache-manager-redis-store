@@ -1,4 +1,4 @@
-const redisStore = redisCache => (...storeArgs) => {
+const redisStore = redisCache => (storeArgs) => {
   return {
     name: 'redis',
     getClient: () => redisCache,
